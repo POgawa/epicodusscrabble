@@ -1,6 +1,6 @@
 describe('scrabbleScore', function() {
   it('scores the word that you enter via scrabble rules for 1 point letters', function() {
-    scrabbleScore("aeiou").should.equal(5);
+    scrabbleScore("bba").should.equal(7);
   });
 
   it('scores the word that you enter via scrable rules for 2 point letters', function() {
